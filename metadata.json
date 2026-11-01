@@ -1,0 +1,8 @@
+{
+  "name": "AlphaPulse - AI Stock Analyzer & Terminal",
+  "description": "Institutional-grade AI stock analyzer with real-time candlestick charts, multi-source financial reports, news sentiment analysis, and clear-cut Buy/Sell investment thesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

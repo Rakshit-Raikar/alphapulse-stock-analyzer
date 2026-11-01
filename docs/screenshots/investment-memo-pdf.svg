@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="100%" height="100%" style="background:#090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <linearGradient id="pdfCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="stampGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="520" fill="#090d16"/>
+
+  <!-- Left: The In-App Investment Thesis Card -->
+  <g transform="translate(40, 30)">
+    <rect width="450" height="460" rx="10" fill="url(#pdfCardGrad)" stroke="#334155" stroke-width="1.5"/>
+    <rect x="24" y="24" width="402" height="60" rx="8" fill="#022c22" stroke="#059669"/>
+    <text x="44" y="52" font-size="14" font-weight="800" fill="#34d399">WHY BUY THIS STOCK? • AI INVESTMENT THESIS</text>
+    <text x="44" y="70" font-size="11" fill="#a7f3d0">Actionable institutional research memo powered by Google Search Grounding</text>
+
+    <!-- Catalyst 1 -->
+    <g transform="translate(24, 110)">
+      <circle cx="8" cy="10" r="5" fill="#10b981"/>
+      <text x="24" y="14" font-size="13" font-weight="700" fill="#ffffff">Blackwell AI Platform Supercycle</text>
+      <text x="24" y="32" font-size="11" fill="#94a3b8" width="380">Full-scale volume production with sold-out allocation across tier-1 hyperscalers.</text>
+    </g>
+
+    <!-- Catalyst 2 -->
+    <g transform="translate(24, 175)">
+      <circle cx="8" cy="10" r="5" fill="#10b981"/>
+      <text x="24" y="14" font-size="13" font-weight="700" fill="#ffffff">CUDA Ecosystem &amp; Enterprise Moat</text>
+      <text x="24" y="32" font-size="11" fill="#94a3b8" width="380">4M+ developers locked into proprietary CUDA stack, commanding &gt;75% gross margins.</text>
+    </g>
+
+    <!-- Catalyst 3 -->
+    <g transform="translate(24, 240)">
+      <circle cx="8" cy="10" r="5" fill="#10b981"/>
+      <text x="24" y="14" font-size="13" font-weight="700" fill="#ffffff">Sovereign AI &amp; Enterprise Inference Boom</text>
+      <text x="24" y="32" font-size="11" fill="#94a3b8" width="380">National supercomputing initiatives expanding total addressable market beyond public cloud.</text>
+    </g>
+
+    <!-- Action button -->
+    <rect x="24" y="390" width="402" height="46" rx="8" fill="url(#stampGrad)"/>
+    <text x="225" y="419" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">📥 Export Comprehensive PDF Report</text>
+  </g>
+
+  <!-- Right: Generated PDF Document Preview (Vector Representation) -->
+  <g transform="translate(530, 30)">
+    <!-- White Sheet of Paper with Shadow -->
+    <rect x="0" y="0" width="430" height="460" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" filter="drop-shadow(0 15px 25px rgba(0,0,0,0.6))"/>
+    
+    <!-- PDF Header -->
+    <rect x="0" y="0" width="430" height="60" rx="6" fill="#0f172a"/>
+    <text x="24" y="36" font-size="16" font-weight="900" fill="#ffffff">ALPHAPULSE <tspan fill="#10b981">RESEARCH MEMO</tspan></text>
+    <text x="310" y="36" font-size="10" font-weight="600" fill="#94a3b8">CONFIDENTIAL • PDF</text>
+
+    <!-- Stock Header in PDF -->
+    <text x="24" y="95" font-size="18" font-weight="800" fill="#0f172a">NVIDIA CORP (NASDAQ: NVDA)</text>
+    <text x="24" y="112" font-size="10" fill="#64748b">Report Date: Nov 01, 2026 • Rating: STRONG BUY • Fair Value Target: $175.00</text>
+    <line x1="24" y1="125" x2="406" y2="125" stroke="#e2e8f0" stroke-width="1.5"/>
+
+    <!-- Key Metrics Table in PDF -->
+    <rect x="24" y="135" width="382" height="48" fill="#f1f5f9" rx="4"/>
+    <text x="36" y="153" font-size="9" fill="#64748b">PRICE</text>
+    <text x="36" y="171" font-size="12" font-weight="800" fill="#0f172a">$138.25</text>
+
+    <text x="130" y="153" font-size="9" fill="#64748b">MARKET CAP</text>
+    <text x="130" y="171" font-size="12" font-weight="800" fill="#0f172a">$3.39T</text>
+
+    <text x="230" y="153" font-size="9" fill="#64748b">SENTIMENT</text>
+    <text x="230" y="171" font-size="12" font-weight="800" fill="#10b981">92 / 100 (Bullish)</text>
+
+    <text x="330" y="153" font-size="9" fill="#64748b">POTENTIAL</text>
+    <text x="330" y="171" font-size="12" font-weight="800" fill="#10b981">+26.6%</text>
+
+    <!-- Section: Investment Thesis -->
+    <text x="24" y="210" font-size="12" font-weight="800" fill="#0f172a">1. EXECUTIVE SUMMARY &amp; VALUATION THESIS</text>
+    <rect x="24" y="220" width="382" height="8" rx="2" fill="#cbd5e1"/>
+    <rect x="24" y="234" width="340" height="8" rx="2" fill="#e2e8f0"/>
+    <rect x="24" y="248" width="365" height="8" rx="2" fill="#e2e8f0"/>
+
+    <!-- Section: Brokerage Consensus -->
+    <text x="24" y="280" font-size="12" font-weight="800" fill="#0f172a">2. WALL STREET / DALAL STREET BROKER CONSENSUS</text>
+    <rect x="24" y="292" width="120" height="20" rx="3" fill="#dcfce7"/>
+    <text x="32" y="306" font-size="9" font-weight="700" fill="#15803d">Goldman Sachs: $165 (Buy)</text>
+
+    <rect x="155" y="292" width="120" height="20" rx="3" fill="#dcfce7"/>
+    <text x="163" y="306" font-size="9" font-weight="700" fill="#15803d">Morgan Stanley: $170 (OW)</text>
+
+    <rect x="286" y="292" width="120" height="20" rx="3" fill="#dcfce7"/>
+    <text x="294" y="306" font-size="9" font-weight="700" fill="#15803d">Bank of America: $180 (Buy)</text>
+
+    <!-- Section: Moat & Catalysts -->
+    <text x="24" y="335" font-size="12" font-weight="800" fill="#0f172a">3. PRIMARY ACCELERATION CATALYSTS</text>
+    <rect x="24" y="345" width="382" height="6" rx="2" fill="#cbd5e1"/>
+    <rect x="24" y="357" width="350" height="6" rx="2" fill="#e2e8f0"/>
+    <rect x="24" y="369" width="370" height="6" rx="2" fill="#e2e8f0"/>
+
+    <!-- Footer stamp -->
+    <line x1="24" y1="410" x2="406" y2="410" stroke="#cbd5e1"/>
+    <text x="24" y="430" font-size="8" fill="#94a3b8">AlphaPulse Quantitative Equity Research Engine • Downloaded via jsPDF Vector Engine</text>
+  </g>
+</svg>
